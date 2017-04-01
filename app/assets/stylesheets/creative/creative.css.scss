@@ -292,11 +292,24 @@ header .header-social .list-inline {
     margin-bottom: 0;
 }
 
+.portfolio-intro {
+    margin: 0 auto 20px;
+}
+
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+}
+
+.portfolio-box img {
+  height: auto;
+  width: auto;
+  max-width: 650px;
+  max-height: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-box .portfolio-box-caption {
