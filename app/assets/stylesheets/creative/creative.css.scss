@@ -228,10 +228,8 @@ header .header-arrow-down {
 }
 
 header .header-arrow-down img {
-  height: auto;
-  width: auto;
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 40px;
+  max-height: 40px;
 }
 
 header .header-social {
@@ -249,6 +247,12 @@ header .header-social .list-inline {
     header {
         min-height: 100%;
     }
+
+    header .img {
+        width: auto;
+        height: auto;
+      }
+
 
     header .header-content {
         position: absolute;
